@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/ffw8prj.css");
+
 html {
   box-sizing: border-box;
 }
@@ -6,9 +8,17 @@ body {
   margin: 0;
   background: rgb(225, 204, 204);
   overflow-x: hidden;
-  font-family: Verdana, sans-serif;
+  font-family: mic-32-new-rounded-web,sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1rem;
   line-height: 1.8rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: saffran,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
@@ -40,14 +50,16 @@ body {
 .navigation-items {
   display: flex;
   justify-content: center;
+  font-size: 22px;
+  color:rgb(225, 204, 204)
 }
 
 .background {
-  background: rgb(227, 195, 195);
+  background: rgb(39, 36, 71);
   position: fixed;
   right: 0;
   width: 100%;
-  height: 60px;
+  height: 70px;
   z-index: -1;
 }
 
