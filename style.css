@@ -107,6 +107,7 @@ h1, h2, h3, h4 {
 .card-title {
   margin: 10px auto;
   font-size: 24px;
+  color: #272447;
 }
 
 /* Save Confirmation */
