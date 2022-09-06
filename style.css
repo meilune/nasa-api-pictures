@@ -68,7 +68,6 @@ h1, h2, h3, h4 {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 22px;
-  color: #e1cccc;
 }
 
 .background {
@@ -78,6 +77,17 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 70px;
   z-index: -1;
+}
+
+.clickable {
+  color: #e1cccc;
+  text-shadow: -0.5px -0.5px 0 #272447, 0.5px -0.5px 0 #272447, -0.5px 0.5px 0 #272447, 0.5px 0.5px 0 #272447;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: #eed765;
 }
 
 /* Images Container */
@@ -113,6 +123,7 @@ h1, h2, h3, h4 {
 /* Save Confirmation */
 .save-confirmed {
   background: white;
+  color: #272447;
   padding: 8px 16px;
   border-radius: 5px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
