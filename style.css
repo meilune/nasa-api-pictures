@@ -40,8 +40,10 @@ h1, h2, h3, h4 {
 
 /* Loader */
 .loader {
-  height: 100vh;
+  margin-top: 70px;
+  height: 95vh;
   width: 100vw;
+  background-color: #e1cccc;
   position: fixed;
   z-index: 99;
   display: -webkit-box;

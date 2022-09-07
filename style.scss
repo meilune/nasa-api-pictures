@@ -33,8 +33,10 @@ h1, h2, h3, h4 {
 
 /* Loader */
 .loader {
-  height: 100vh;
+  margin-top: 70px;
+  height: 95vh;
   width: 100vw;
+  background-color: rgb(225, 204, 204);
   position: fixed;
   z-index: 99;
   display: flex;
