@@ -1,6 +1,12 @@
 # nasa-api-pictures
 
-Nasa Picture of the day project
+Nasa Picture of the day project: https://meilune.github.io/nasa-api-pictures/
+
+Project uses general API key which might stop working after too many uses. I am not using NodeJS with this project so I am not able to hide the personal API key, sorry for inconvenience if you can't enjoy this goodness from NASA. 
+
+Check it out and save your favourites to your browser's local storage.
+
+API original information: https://api.nasa.gov 
 
 
 This project is created based on Udemy's JavaScript Web Projects: 20 Projects to Build Your Portfolio, ZTM Academy. It's my way of building up my JavaScript skills. 
